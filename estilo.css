@@ -1,0 +1,50 @@
+/* estilo.css */
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para campos preenchidos */
+input:valid,
+select:valid {
+  border-color: green;
+}
+
+/* Estilos para campos obrigatórios não preenchidos */
+input:required:invalid,
+select:required:invalid {
+  border-color: red;
+}
+
+/* Estilos para campos em foco */
+input:focus,
+select:focus {
+  outline: 2px solid blue;
+}
+
+/* Estilos para checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
